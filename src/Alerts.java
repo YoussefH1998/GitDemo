@@ -11,6 +11,25 @@ public class Alerts {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.findElement(By.id("name")).sendKeys(text);
+		dddedeffefef
+feefefeffeef
+efef
+efef
+feeffe
+effe
+fe
+feef
+ef
+
+
+{
+
+
+
+}
+public void(){
+
+}
 		driver.findElement(By.cssSelector("[id=alertbtn]")).click();
 		System.out.println(driver.switchTo().alert().getText());
 		driver.switchTo().alert().accept();

@@ -17,6 +17,25 @@ public class Assignment2 {
 		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("Rahul@9848");
 		driver.findElement(By.cssSelector(".form-check-input")).click();
 		WebElement staticdropDown=driver.findElement(By.id("exampleFormControlSelect1"));
+
+feefefeffeef
+efef
+efef
+feeffe
+effe
+fe
+feef
+ef
+
+
+{
+
+
+
+}
+public void(){
+
+}
 		Select dropdown=new Select(staticdropDown);
 		dropdown.selectByVisibleText("Female");
 		driver.findElement(By.cssSelector("#inlineRadio2")).click();
