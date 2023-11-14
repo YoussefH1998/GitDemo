@@ -34,6 +34,7 @@ public void(){
 		System.out.println(driver.switchTo().alert().getText());
 		driver.switchTo().alert().accept();
 		driver.findElement(By.cssSelector("[id=confirmbtn]")).click();
+		YOI
 		System.out.println(driver.switchTo().alert().getText());
 		driver.switchTo().alert().dismiss();
 
